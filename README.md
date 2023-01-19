@@ -1,1 +1,15 @@
-# UNCC-Fintech-Project-2
+# Loan Default Prediction
+
+
+###### Created by: 
+* Cesar Sandiford
+
+
+## Description
+
+
+
+
+
+
+
