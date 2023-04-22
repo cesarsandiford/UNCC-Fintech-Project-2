@@ -9,28 +9,14 @@ Importing the necessary libraries to fit the model.
 
 ### 2. Load the CSV file into a Pandas dataframe
 
-Loading the csv file in google collab by coding 'from google.colab import files'
+Loading the csv file in google colab by coding `from google colab import files`
 
 
 ### 3. Separate the data into labels and features
 
-1. Open `app.py`.
+1. Separate `y` for defaulted.
 
-2. In `app.py`, in the “Register New Artwork” section:
-
-     Used Lottie Animation with the function: `def load_lottieurl(url: str)`:
-    
-     Have a url to pull from: `lottie_marketplace = load_lottieurl`
-
-     Defined new Streamlit components to get the following data from the user:
-
-        * The name of the artwork
-
-        * The name of the artist
-
-        * The initial appraisal value
-
-        * The URI of the artwork
+2. Separate `x` for 
 
     * Created a button named “Register Artwork” that uses the contract's `registerArtwork` function to register the data that you get from the Streamlit components.
 
