@@ -9,7 +9,7 @@ Importing the necessary libraries to fit the model.
 
 ### 2. Load the CSV file into a Pandas dataframe
 
-Loading the csv file in google collab by coding from google.colab import files
+Loading the csv file in google collab by coding 'from google.colab import files'
 
 
 ### 3. Separate the data into labels and features
