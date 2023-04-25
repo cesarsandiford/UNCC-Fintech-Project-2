@@ -20,9 +20,48 @@ Loading the csv file in google colab `from google colab import files`
 
     
 
-### 4. Plot the clusters using the "bill_amt" and "pay_amt" columns
+### 4. Plot the clusters using the x for "Loan" and y for "Bank Balance"
 
-1. 
+
+
+### 5. Check the balance of our target values
+`y.value_counts()`
+     
+`0    967 good standing`
+`1     33 defaulted`
+
+
+### 6. Split the data using train_test_split and Instantiate the Logistic Regression model to fit.
+
+`lr = LogisticRegression(random_state=1)`
+`lr.fit(X_train, y_train)`
+
+### 7. Make a prediction using the testing data
+`y_pred = lr.predict(X_test)`
+
+`results = pd.DataFrame({
+    "Prediction": y_pred, 
+    "Actual": y_test
+}).reset_index(drop=True)`
+
+Then print the results.
+
+
+### 8. Print the balanced_accuracy score of the model
+`print(balanced_accuracy_score(y_test, y_pred))`
+
+
+### 9. Generate a confusion matrix for the model
+`print(confusion_matrix(y_test, y_pred))`
+
+
+### 10. Print the classification report for the model
+`print(classification_report_imbalanced(y_test, y_pred))`
+
+
+### 11. Predict a Logistic Regression Model with Resampled Training Data (Repeat process)
+
+
 
 ## Created by: 
 
