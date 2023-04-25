@@ -61,7 +61,7 @@ Loading the csv file in google colab `from google colab import files`
     "Actual": y_test
 }).reset_index(drop=True)`
 
-Then print the results.
+Then print the `results`.
 
 
 ### 8. Print the balanced_accuracy score of the model
@@ -75,16 +75,19 @@ Then print the results.
 ### 10. Print the classification report for the model
 `print(classification_report_imbalanced(y_test, y_pred))`
 
+<img width="676" alt="Screenshot 2023-04-24 at 8 18 49 PM" src="https://user-images.githubusercontent.com/112976523/234143353-8121824f-16d9-48ef-8929-e0132324ec65.png">
+
 
 ### 11. Predict a Logistic Regression Model with Resampled Training Data (Repeat process)
 
 ## Final with Classification Report Oversampled
+
 <img width="653" alt="Screenshot 2023-04-24 at 8 08 53 PM" src="https://user-images.githubusercontent.com/112976523/234142886-57143617-479c-4f06-8785-47d95626502f.png">
 
 
 
 
-### Conclusion
+### Conclusion:
 By having the Logistic Regression model applied to the dataset, the balanced accuracy score was 58% meaning it was not too accurate. Since the data was imbalanced by the defaults, I gave it a proper chance by oversampling it to increase the accuracy of the mode up to 84%. Huge improvement! F1 score average was 94 vs the resampled average was 90. In conclusion, Oversampling the model brings a better prediction for this situation. Also, predicting defaults can be difficult given that customers could have different lifestyle, emergencies, unexpected situation or money opportunities in life.
 
 
