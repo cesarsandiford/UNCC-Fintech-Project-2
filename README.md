@@ -1,6 +1,8 @@
 # Loan Default Prediction
 
-Using Maching Learning in order to predict high risk customers if they default on their loans.
+This project is about using machine learning to predict loan defaults with given data about customers with a Supervised model.
+In times of uncertainty, FinTechs are in big risk when it comes to higher percentage of loan defaults and using machine learning to understand and identify the risk is very important to have in hand so they can make decisions to raise the credit standards in the future and minimize risk.
+
 
 ### 1. Import the requires Libraries
 
@@ -75,6 +77,17 @@ Then print the results.
 
 
 ### 11. Predict a Logistic Regression Model with Resampled Training Data (Repeat process)
+
+## Final with Classification Report Oversampled
+<img width="653" alt="Screenshot 2023-04-24 at 8 08 53 PM" src="https://user-images.githubusercontent.com/112976523/234142886-57143617-479c-4f06-8785-47d95626502f.png">
+
+
+
+
+### Conclusion
+By having the Logistic Regression model applied to the dataset, the balanced accuracy score was 58% meaning it was not too accurate. Since the data was imbalanced by the defaults, I gave it a proper chance by oversampling it to increase the accuracy of the mode up to 84%. Huge improvement! F1 score average was 94 vs the resampled average was 90. In conclusion, Oversampling the model brings a better prediction for this situation. Also, predicting defaults can be difficult given that customers could have different lifestyle, emergencies, unexpected situation or money opportunities in life.
+
+
 
 
 
