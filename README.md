@@ -7,6 +7,7 @@ In times of uncertainty, FinTechs are in big risk when it comes to higher percen
 ### 1. Import the requires Libraries
 
 Importing the necessary libraries to fit the model.
+
 `import numpy as np
 import pandas as pd
 from pathlib import Path
