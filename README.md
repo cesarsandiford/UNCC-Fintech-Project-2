@@ -5,7 +5,18 @@ Using Maching Learning in order to predict high risk customers if they default o
 ### 1. Import the requires Libraries
 
 Importing the necessary libraries to fit the model.
+`import numpy as np
+import pandas as pd
+from pathlib import Path
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from imblearn.over_sampling import RandomOverSampler
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import confusion_matrix
+from imblearn.metrics import classification_report_imbalanced`
 
+import warnings
+warnings.filterwarnings('ignore')
 
 ### 2. Load the CSV file into a Pandas dataframe
 
