@@ -35,7 +35,7 @@ Loading the csv file in google colab `from google colab import files`
 
     <img width="712" alt="Screenshot 2023-04-24 at 8 08 14 PM" src="https://user-images.githubusercontent.com/112976523/234142413-7d202284-a132-4859-9287-7caded78380e.png">
 
-### 4. Plot the clusters using the x for "Loan" and y for "Bank Balance"
+### 4. Plot the clusters using the `x` for "Loan" and `y` for "Bank Balance"
 
 <img width="411" alt="Screenshot 2023-04-24 at 8 08 30 PM" src="https://user-images.githubusercontent.com/112976523/234142806-fea8a17b-2fe8-41d1-8ee8-30412dd801d9.png">
 
