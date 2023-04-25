@@ -22,6 +22,8 @@ warnings.filterwarnings('ignore')
 
 Loading the csv file in google colab `from google colab import files`
 
+![alt text](<img width="773" alt="Screenshot 2023-04-24 at 8 08 00 PM" src="https://user-images.githubusercontent.com/112976523/234141907-4cf3fbd4-98e6-47b0-aa61-0c2ddd6d8ed0.png">
+)
 
 ### 3. Separate the data into labels and features
 
